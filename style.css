@@ -1,0 +1,1375 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('./fonts/Jost-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('./fonts/Jost-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+}
+
+*{
+    font-family: Jost, 'sans-serif';
+    box-sizing: border-box; 
+    margin: 0;
+ }
+
+photo_header{
+    position: absolute;
+    width: 1920px;
+    height: 989px;
+    left: 1920px;
+    padding-top: 0px;
+    
+}
+
+.header_logo{
+    font-family:'Museo Sans Cyrl';
+    color: #FFFFFF;
+    position: absolute;
+    width: 197px;
+    height: 61px;
+    left: 298px;
+    top: 53px;
+    font-size: 51px;
+    line-height: 61px;
+}
+
+.header_logo2{
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 298px;
+    top: 101px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 27px;
+    line-height: 32px;
+    color: #CFA55B;
+}
+
+.logo_p{
+    position: absolute;
+    width: 286px;
+    height: 44px;
+    left: 607px;
+    top: 72px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.phone{
+    position: absolute;
+    width: 266px;
+    height: 48px;
+    left: 1011px;
+    top: 71px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+   
+}
+
+#q{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button_s{
+    position: absolute;
+    width: 175px;
+    height: 17px;
+    color: #FFC256;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 24px;
+    padding-top: 12px;
+}
+
+.button_a{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 225px;
+    height: 48px;
+    left: 1259px;
+    top: 64px;
+    border: 2px solid #FFC256;
+    border-radius: 5px;
+    
+}
+
+.content{
+    position: absolute;
+    width: 630px;
+    height: 179px;
+    left: 300px;
+    top: 312px;
+}
+
+.header-content{
+    font-family: 'Museo Sans Cyrl';
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.orange{
+    color: #CFA55B;
+}
+
+#w{
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 1359px;
+    top: 21px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#prod{
+    width: 261px;
+    height: 19px;
+    left: 345px;
+    top: 605px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    text-align: center;
+    padding-left: 70px;
+    line-height: 79px;
+    color: #FFFFFF;
+    
+}
+
+.button_das{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    left: 301px;
+    top: 574px;
+    background: #CFA55B;
+    border-radius: 5px;
+
+}
+
+#r{
+
+    position: absolute;
+    width: 266px;
+    height: 38px;
+    left: 351px;
+    top: 810px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#t{
+    position: absolute;
+    width: 232px;
+    height: 19px;
+    left: 806px;
+    top: 818px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+}
+
+#y{
+    position: absolute;
+    width: 238px;
+    height: 38px;
+    left: 1246px;
+    top: 811px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#i{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 309px;
+    top: 822px;
+    background: #CFA55B;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+}
+
+#o{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 300px;
+    top: 813px;
+    background: #CFA55B;
+    opacity: 0.05;
+    box-shadow: 0px 0px 15px #CFA55B;
+    opacity: 0.15;
+    border-radius: 10px;
+    }
+
+#p{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 750px;
+    top: 813px;
+    background: #CFA55B;
+    opacity: 0.05;
+    box-shadow: 0px 0px 15px #CFA55B;
+    opacity: 0.15;
+    border-radius: 10px;
+
+}
+
+#a{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 759px;
+    top: 822px;
+    background: #CFA55B;
+    border-radius: 10px;
+
+}
+
+#s{
+    
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1184px;
+    top: 813px;
+    background: #CFA55B;
+    opacity: 0.05;
+    box-shadow: 0px 0px 15px #CFA55B;
+    opacity: 0.15;
+    border-radius: 10px;
+}
+
+#d{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1193px;
+    top: 822px;
+    background: #CFA55B;
+    border-radius: 10px;
+}
+
+#f{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 305px;
+    top: 818px;
+    background: #CFA55B;
+    opacity: 0.15;
+    border-radius: 10px;
+}
+
+#g{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 755px;
+    top: 818px;
+    background: #CFA55B;
+    opacity: 0.15;
+    border-radius: 10px;
+    
+}
+
+#h{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1189px;
+    top: 818px;
+    background: #CFA55B;
+    opacity: 0.15;
+    border-radius: 200px;
+}
+
+
+
+#l{
+    color: #CFA55B;
+}
+
+.content_one{
+    position: absolute;
+    width: 694px;
+    height: 86px;
+    padding-left: 213px;
+    top: 367px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #424242;
+}
+
+#qw{
+    position: absolute;
+    width: 112px;
+    height: 113px;
+    left: 293px;
+    top: 1204px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    color: #CFA55B;
+    opacity: 0.3;
+
+}
+
+.uu{
+    position: absolute;
+    width: 543px;
+    height: 36px;
+    left: 300px;
+    top: 1341px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.rub_o{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 1432px;
+}
+
+.rub_n{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 1509px;
+}
+
+.rub_e{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 1572px;
+}
+
+
+#qq{
+    position: absolute;
+    width: 404px;
+    height: 44px;
+    left: 349px;
+    top: 1419px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #424242;
+}
+
+#aa{
+    position: absolute;
+    width: 343px;
+    height: 22px;
+    left: 349px;
+    top: 1495px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #424242;
+}
+
+#zz{
+    position: absolute;
+    width: 383px;
+    height: 49px;
+    left: 349px;
+    top: 1558px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #424242;
+}
+
+.dd{
+    color: #CFA55B;
+}
+
+#ff{
+    position: absolute;
+    width: 649px;
+    height: 389px;
+    left: 971px;
+    top: 1310px;
+}
+
+#we{
+    position: absolute;
+    width: 112px;
+    height: 226px;
+    left: 1004px;
+    top: 1809px;
+    font-family: 'Roboto Black';
+    font-size: 96px;
+    line-height: 112px;
+    text-transform: uppercase;
+    color: #CFA55B;
+    opacity: 0.3;
+}
+
+
+.uuu{
+    position: absolute;
+    width: 543px;
+    height: 36px;
+    left: 1013px;
+    top: 1946px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    color: #424242;
+}
+
+.ddd{
+    color: #CFA55B;
+}
+
+.rub_t{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 1027px;
+    top: 2037px;
+   
+}
+
+
+.rub_w{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 1027px;
+    top: 2112px;
+}
+
+
+.rub_oo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 1027px;
+    top: 2175px;
+}
+
+#qqq{
+    position: absolute;
+    width: 408px;
+    height: 44px;
+    left: 1076px;
+    top: 2024px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #424242;
+
+}
+
+#aaa{
+    position: absolute;
+    width: 343px;
+    height: 22px;
+    left: 1076px;
+    top: 2098px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #424242;
+}
+
+#zzz{
+    position: absolute;
+    width: 383px;
+    height: 49px;
+    left: 1076px;
+    top: 2161px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #424242;
+}
+
+#mmm{
+    position: absolute;
+    width: 649px;
+    height: 390px;
+    left: 293px;
+    top: 1910px;
+}
+
+.buton{
+    position: absolute;
+    width: 420px;
+    height: 85px;
+    left: 300px;
+    top: 1650px;
+    background: #CFA55B;
+    box-shadow: 0px 20px 40px rgba(207, 165, 91, 0.4);
+    border-radius: 5px;
+    border: none;
+}
+#buttton{
+    position: absolute;
+    width: 288px;
+    height: 22px;
+    left: 366px;
+    top: 1682px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.buton_two{
+    position: absolute;
+    width: 420px;
+    height: 85px;
+    left: 1027px;
+    top: 2253px;
+    background: #CFA55B;
+    box-shadow: 0px 20px 40px rgba(207, 165, 91, 0.4);
+    border-radius: 5px;
+    border: none;
+}
+
+#butonna{
+    position: absolute;
+    width: 272px;
+    height: 21px;
+    left: 1101px;
+    top: 2285px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#wee{  
+    position: absolute;
+    width: 112px;
+    height: 113px;
+    left: 293px;
+    top: 2420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    color: #CFA55B;
+    opacity: 0.3;
+}
+
+.uuuu{
+    position: absolute;
+    width: 543px;
+    height: 36px;
+    left: 300px;
+    top: 2557px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    color: #424242;
+}
+
+.mmmm{
+    position: absolute;
+    width: 649px;
+    height: 395px;
+    left: 971px;
+    top: 2557px;
+
+}
+
+.dddd{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 2648px;
+}
+
+.rub_tt{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 2648px;
+}
+
+.rub_r{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 2726px;
+}
+
+.rub_ee{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 300px;
+    top: 2789px;
+}
+
+#qqqq{
+    position: absolute;
+    width: 404px;
+    height: 44px;
+    left: 349px;
+    top: 2635px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#aaaa{
+    position: absolute;
+    width: 343px;
+    height: 22px;
+    left: 349px;
+    top: 2712px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#zzzz{
+    position: absolute;
+    width: 383px;
+    height: 49px;
+    left: 349px;
+    top: 2775px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.vvv{
+    color: #424242;
+}
+
+.ddd{
+    color: #424242;
+}
+
+#mmmm{
+    position: absolute;
+    width: 649px;
+    height: 395px;
+    left: 971px;
+    top: 2520px;
+}
+
+.buton_tree{
+    position: absolute;
+    width: 420px;
+    height: 85px;
+    left: 300px;
+    top: 2867px;
+    background: #CFA55B;
+    border: none;
+}
+
+#butonnaa{
+    position: absolute;
+    width: 272px;
+    height: 21px;
+    left: 374px;
+    top: 2899px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#body_conntent{
+    position: absolute;
+    width: 477px;
+    height: 86px;
+    left: 295px;
+    top: 3261px;
+
+    font-family: 'Museo Sans Cyrl';
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #CFA55B;
+}
+
+#hgh{
+    position: absolute;
+    width: 1981px;
+    height: 736px;
+    left: -48px;
+    top: 3070px;
+}
+
+.body_conntent{
+    position: absolute;
+    width: 477px;
+    height: 86px;
+    left: 295px;
+    top: 3261px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 36px;
+    line-height: 43px;
+    color: #CFA55B;
+}
+
+#jecj{
+    color: #FFFFFF;
+}
+
+#hgg{
+    position: absolute;
+    width: 638px;
+    height: 88px;
+    left: 296px;
+    top: 3400px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#klo{
+    position: absolute;
+    width: 616px;
+    height: 66px;
+    left: 296px;
+    top: 3517px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.dop_block{
+    position: absolute;
+    width: 447px;
+    height: 548px;
+    left: 1125px;
+    top: 3150px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 50px rgba(207, 165, 91, 0.5);
+
+}
+
+#tty{
+    position: absolute;
+    width: 493px;
+    height: 87px;
+    left: 10px;
+    padding-left: 34px;
+    padding-top: 36px;
+    padding-right: 90px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    color: #424242;
+
+}
+
+#ggh{
+    position: absolute;
+    width: 361px;
+    height: 51px;
+    left: 10px;
+    padding-left: 34px;
+    padding-top: 140px;
+    padding-right: 90px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+.rub_ttt{
+    position: absolute;
+    width: 15.56px;
+    height: 15.56px;
+    left: 1162px;
+    top: 3399px;
+}
+
+#qqqqq{
+    position: absolute;
+    width: 227px;
+    height: 34px;
+    left: 44px;
+    top: 240px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+#qqqw{
+    color: #CFA55B;
+}
+
+.hgsh{
+    position: absolute;
+    width: 267px;
+    height: 17px;
+    left: 1198px;
+    top: 3443px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+.hr{
+    color: #CFA55B;
+}
+
+#qqqqqq{
+    position: absolute;
+    width: 267px;
+    height: 17px;
+    left: 44px;
+    top: 290px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+#qqqqqqq{
+    position: absolute;
+    width: 267px;
+    height: 17px;
+    left: 44px;
+    top: 330px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+#ggjj{
+    position: absolute;
+    width: 378px;
+    height: 72px;
+    left: 44px;
+    top: 420px; 
+    background: #CFA55B;
+    border-radius: 5px;
+    border: none;
+}
+
+#ffjsj{
+    position: absolute;
+    width: 190px;
+    height: 22px;
+    left: 130px;
+    top: 440px; 
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#lll{
+    color: #CFA55B;
+}
+
+#ttii{
+    position: absolute;
+    width: 406px;
+    height: 42px;
+    left: 757px;
+    top: 3891px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #424242;
+}
+
+#eeoo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 294px;
+    height: 65px;
+    left: 387px;
+    top: 3990px;
+    border: 2px solid #CFA55B;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#wwii{
+    position: absolute;
+    width: 223px;
+    height: 19px;
+    left: 425px;
+    top: 4011px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #CFA55B;
+}
+
+#eeoi{
+    box-sizing: border-box;
+    position: absolute;
+    width: 207px;
+    height: 65px;
+    left: 719px;
+    top: 3990px;
+    border: 2px solid #CFA55B;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#wwiu{
+    position: absolute;
+    width: 121px;
+    height: 19px;
+    left: 762px;
+    top: 4013px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #CFA55B;
+}
+
+#eeop{
+    position: absolute;
+    width: 296px;
+    height: 65px;
+    left: 964px;
+    top: 3990px;
+    background: #CFA55B;
+    box-shadow: 0px 4px 20px rgba(207, 165, 91, 0.5);
+    border-radius: 5px;
+    border: none;
+}
+
+#wwop{
+    position: absolute;
+    width: 213px;
+    height: 19px;
+    left: 1005px;
+    top: 4013px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#eeoppp{
+    box-sizing: border-box;
+    position: absolute;
+    width: 234px;
+    height: 65px;
+    left: 1298px;
+    top: 3990px;
+    border: 2px solid #CFA55B;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#eeol{
+    position: absolute;
+    width: 194px;
+    height: 19.66px;
+    left: 1318px;
+    top: 4013px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #CFA55B;
+}
+
+.fgg{
+    position: absolute;
+    width: 1100px;
+    height: 584px;
+    left: 412px;
+    top: 4116px;
+
+}
+
+#asjkajs{
+    position: absolute;
+    width: 459px;
+    height: 22px;
+    left: 730px;
+    top: 4732px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #CFA55B;
+}
+
+#aska{
+    position: absolute;
+    width: 459px;
+    height: 22px;
+    left: 730px;
+    top: 4770px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #424242;
+}
+
+.aop{
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 445px;
+    top: 4839px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #CFA55B;
+}
+
+#vvb{
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 445px;
+    top: 4839px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px; 
+    text-align: center;
+    color: #CFA55B;
+    
+}
+
+#vvbn{
+    position: absolute;
+    width: 101px;
+    height: 36px;
+    left: 671px;
+    top: 4839px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #CFA55B;
+    
+}
+
+#vvbnm{
+    position: absolute;
+    width: 99px;
+    height: 36px;
+    left: 895px;
+    top: 4839px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #CFA55B;
+    
+}
+
+#vvbnn{
+    position: absolute;
+    width: 95px;
+    height: 36px;
+    left: 1119px;
+    top: 4839px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #CFA55B;
+    
+}
+
+#vvbnmm{
+    position: absolute;
+    width: 70px;
+    height: 36px;
+    left: 1343px;
+    top: 4839px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 30px;
+    line-height: 36px; 
+    text-align: center;
+    color: #CFA55B;
+    
+}
+
+#vvbbb{
+    position: absolute;
+    width: 79px;
+    height: 29px;
+    left: 444px;
+    top: 4876px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+#vvbnnnn{
+    position: absolute;
+    width: 74px;
+    height: 29px;
+    left: 671px;
+    top: 4876px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+#vvbnmmn{
+    position: absolute;
+    width: 66px;
+    height: 29px;
+    left: 895px;
+    top: 4876px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #8C8C8C;
+    
+}
+
+#vvbnnn{
+    position: absolute;
+    width: 60px;
+    height: 29px;
+    left: 1121px;
+    top: 4876px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px; 
+    text-align: center;
+    color: #8C8C8C;
+    
+}
+
+#vvbnmmm{
+    position: absolute;
+    width: 132px;
+    height: 29px;
+    left: 1343px;
+    top: 4879px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #8C8C8C;
+    
+}
+
+#ffuu{
+    position: absolute;
+    width: 2093px;
+    height: 458px;
+    left: -52px;
+    top: 5000px;
+}
+
+#aakk{
+    position: absolute;
+    width: 433px;
+    height: 43px;
+    left: 298px;
+    top: 5098px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#jjaa{
+    position: absolute;
+    width: 715px;
+    height: 66px;
+    left: 299px;
+    top: 5171px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#jock{
+    position: absolute;
+    width: 553px;
+    height: 73px;
+    left: 299px;
+    top: 5281px;
+    background: #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(66, 66, 66, 0.3);
+    border-radius: 10px;
+}
+
+#smasjs{
+    position: absolute;
+    width: 553px;
+    height: 73px;
+    left: 299px;
+    top: 5281px;
+    box-shadow: 0px 4px 20px rgba(66, 66, 66, 0.3);
+    border-radius: 10px;
+    border: none;
+    background: #FFFFFF;
+}
+
+#tel{
+    position: absolute;
+    width: 184px;
+    height: 22px;
+    left: 339px;
+    top: 5307px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    color: #787878;
+}
+
+#kklk{
+    position: absolute;
+    width: 184px;
+    height: 22px;
+    left: 339px;
+    top: 5307px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #787878;
+}
+
+#sksk{
+    position: absolute;
+    width: 298px;
+    height: 73px;
+    left: 879px;
+    top: 5281px;
+    background: #CFA55B;
+    box-shadow: 0px 4px 60px rgba(255, 194, 86, 0.4);
+    border-radius: 10px;
+    border: none;
+}
+
+#wdmkwm{
+    position: absolute;
+    width: 221px;
+    height: 22px;
+    left: 917px;
+    top: 5307px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#ksdk{
+    position: absolute;
+    width: max-content;
+    height: 39px;
+    left: 293px;
+    top: 5507px;
+}
+
+#kkksss{
+    position: absolute;
+    width: 203px;
+    height: 34px;
+    left: 350px;
+    top: 5509px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+#qqsqssq{
+    position: absolute;
+    width: 266px;
+    height: 48px;
+    left: 406px;
+    top: 5450px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #424242;
+    text-decoration: none;
+
+}
+
